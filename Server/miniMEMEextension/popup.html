@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    </head>
+	  <style>
+    body {
+      background-color: rgba(0, 0, 0, 0); /* Translucent black background */
+      color: #626263;
+      background-image: url('background.jpeg');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% auto;
+      width: 730px; 
+      height: 582px; 
+      font-family: "Roboto";
+      overflow: hidden; /* Hide scrollbars */
+    }
+
+    .small-image {
+      transition: transform 0.6s;
+      cursor: pointer;
+    }
+
+    .small-image:hover {
+      transform: scale(2.5);
+      transform-origin: center center; /* Set the transform origin to the center */
+      z-index: 1;
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+
+    img {
+      width: 12%;
+      height: 12%;
+      margin-left: -3px;
+      margin-right: auto;
+      margin-top: 6px;
+    }
+	
+	
+	
+	    p {
+
+      margin-top: -4px;
+    }
+	
+	
+
+    button {
+      width: 100%;    
+      border-radius: 0px;
+	  border: 0px;
+      background-color: #252429;
+	  color: lightgrey;
+      cursor: pointer;
+      font-family: "roboto";
+
+    }
+	
+	
+	    header {
+      width: 100%;
+      height: 5px;
+      border-radius: 0px;
+      font-family: "roboto";
+	  opacity: 0.4;
+
+    }
+
+    #roundeddivbox {
+      border: groove 0.0em darkgrey;  
+      border-radius: 0px;
+      margin-bottom: 11px;
+      margin-top: 27px;
+      width: 99%;
+      height: 30px;
+      background-color: #1c1c1c;
+    }
+
+    #statusBar {
+      height: 14px;
+      margin-top: 6px;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+
+    #statusBar.stop {
+      animation-name: glowingStop;
+    }
+
+    #statusBar.start {
+      animation-name: glowingStart;
+    }
+
+    @keyframes glowingStop {
+      0% {
+        background-color: rgba(255, 0, 0, 0.6);
+      }
+      50% {
+        background-color: rgba(255, 0, 0, 0.2);
+      }
+      100% {
+        background-color: rgba(255, 0, 0, 0.6);
+      }
+    }
+
+    @keyframes glowingStart {
+      0% {
+        background-color: rgba(0, 200, 0, 1);
+      }
+      50% {
+        background-color: rgba(0, 128, 0, 0.2);
+      }
+      100% {
+        background-color: rgba(0, 200, 0, 1);
+      }
+    }
+
+    #counter {
+      margin-top: 0px;
+	  
+    }
+
+    .timer {
+      font-family: "Roboto";
+      font-size: 32px;
+      color: grey;
+      margin-left: 0px;
+      margin-top: -4px;
+      display: inline-block;
+      text-align: center; /* Added rule for right alignment */
+    }
+
+    .clickable-text {
+      cursor: pointer;
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+
+    #imageContainer {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow: hidden;
+      margin-left: 4px;
+	  margin-top: -6px;
+    }
+
+    .small-image {
+      flex: 0 0 auto;
+      transform-origin: center center;
+      width: 33.3%; /* Adjust the width percentage as needed */
+      aspect-ratio: 1/1.1; 
+      height: 33%; /* Let the height scale proportionally */
+      object-fit: cover;
+      margin-right: 4px;
+    }
+
+    .alignleft {
+      float: left;
+    }
+
+    .alignright {
+      float: right;
+    }
+
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 99%;
+      margin-left: 3px;
+    }
+
+    td, th {
+      border: 0px solid #111321;
+      border-right: 1px solid #252429;
+      text-align: center;
+      padding: 0px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #0000;
+    }
+
+    /* Hide the vertical scrollbar */
+    body::-webkit-scrollbar {
+      width: 0.0em; /* Adjust the width as needed */
+    }
+
+    body::-webkit-scrollbar-track {
+      background: transparent; /* Change the track color if desired */
+    }
+
+    body::-webkit-scrollbar-thumb {
+      background: transparent; /* Change the thumb color if desired */
+    }
+
+    body::-webkit-scrollbar-thumb:hover {
+      background: transparent; /* Change the thumb color on hover if desired */
+    }
+	
+	
+	
+	@keyframes glowing {
+  0% {
+    box-shadow: 0 0 5px rgba(122, 51, 164, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(122, 51, 164, 0.7);
+  }
+    50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+  }
+    0% {
+    box-shadow: 0 0 5px rgba(122, 51, 164, 0.7);
+  }
+}
+
+.glow {
+  animation: glowing 7s;
+}
+
+
+
+.butn:link,
+.butn:visited {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: #5e16bd;
+  background-image: linear-gradient(90deg, #101010, #232323);
+  padding: 1rem 2.5rem;
+  height: 28px;
+  width: 89%;
+
+  margin-right: 13px;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.butn::before {
+  background: #fff;
+  content: "";
+  height: 155px;
+  opacity: 0;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  width: 50px;
+  transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.butn::after {
+  background: #fff;
+  content: "";
+  height: 20rem;
+  opacity: 0.01;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  transition: all 3000ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 0px;
+}
+.butn__new::before {
+  left: -50%;
+}
+
+.butn__new::after {
+  left: -100%;
+}
+
+.butn:hover,
+.butn:active {
+  transform: translateY(-3px);
+  color: #fff;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.butn__new:hover::before {
+  left: 120%;
+  opacity: 0.5s;
+}
+
+.butn__new:hover::after {
+  left: 200%;
+  opacity: 0.6;
+}
+.butn span {
+  z-index: 20;
+}
+	
+  </style>
+	
+    <body>
+        <header>        
+
+        </header>
+      
+        <script src="popup.js"></script>
+		
+		
+		  <center><img id="myImage" src="splashscreen.jpeg" alt="Splashscreen" style="width: 299px; height: 100%;"></center>
+  <center><p style="font-size: 14px;"></p></center>
+
+  <center>
+    <div id="headerSection">
+      <img id="headerImage" src="logosunpump.png" alt="Header Image" style="width: 203px; height: 100%;">
+    </div>
+
+    <div id="roundeddivbox">
+      <div id="countdown" class="timer"></div>
+    </div>
+  </center>
+  <table    style="background-color: #1c1c1c;">
+    <tr>
+      <th>
+        <div title="Counts the number of notifications" id="testSound" class="clickable-text">Notification Count</div>
+      </th>
+      <th title="Counts the number of refreshes">Refresh Count</th>
+      <th title="Set your countdown time, don't set it below 60 seconds, it gives the best results and prevents from getting banned.">Refresh time (SEC)</th>
+    </tr>
+    <tr>
+      <td style="color: white; font-size: 20px;"><span id="notificationCount" style="color: grey; font-size: 20px;">0</span></td>
+      <td style="color: white; font-size: 20px;"><span id="refreshCount" style="color: grey; font-size: 20px;">0</span></td>
+      <td style="color: white; font-size: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;<input type="number" id="refreshTime" min="1" step="1" value="25" style="width: 43px; font-size: 20px; background-color: #1c1c1c; color: grey; border: none;"></td>
+    </tr>
+  </table>
+  <label for="clearCacheCheckbox" style="display:none;">Clear Cache</label>
+  <input type="checkbox" style="display:none;" id="clearCacheCheckbox" checked>
+  <label>
+  
+  </label>
+  <br>
+  <div id="imageContainer"></div>
+  <br>
+  <a href="#" id="refreshButton" class='butn butn__new'><span><b>Start Refresh<b/></span></a>
+  <div id="statusBar" class="stop"></div>
+		
+		
+    </body>
+</html>

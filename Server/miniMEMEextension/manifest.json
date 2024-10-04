@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "miniMEMEscraperV0994",
+  "version": "0.994",
+  "permissions": [
+	"https://*.sunpump.*/*",
+    "browsingData",
+    "scripting",
+    "activeTab",
+    "downloads",	
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png"
+  },
+  "content_scripts": [
+    
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
