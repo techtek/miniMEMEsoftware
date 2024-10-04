@@ -1,4 +1,4 @@
-# miniMEME Client and Server Software
+# Client and Server Software
 
 
 ![Alt text](https://techtek.github.io/miniMEMEwebsite/minimemelogo.png)
