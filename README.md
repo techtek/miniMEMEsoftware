@@ -2,8 +2,8 @@
 miniMEME
 
 
-https://techtek.github.io/miniMEMEwebsite/minimemelogo.png
 
+![screenshot]([screenshot.png](https://techtek.github.io/miniMEMEwebsite/minimemelogo.png))
 
 
 Client Setup
