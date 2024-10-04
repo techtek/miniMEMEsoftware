@@ -19,11 +19,17 @@ Client Setup
 3. Make sure you have downloaded and installed these versions of the specific libararies from the Arduino IDE library manager    
 
 Tjpg_Decoder 1.1.0
+
 NTPCLIENT 3.2.1
+
 SD 1.3.0
+
 Adafruit SPIFlash 5.0.0
+
 wifimanager 2.0.17
+
 TFT_eSPI 2.5.43
+
 ArduinoJson 7.2.0
 
 Use these specific versions and dont update the libraries or it might result in errors.  
