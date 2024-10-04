@@ -6,7 +6,7 @@ The Memes on Sunpump.meme are small pieces of art and a snapshot of our time and
 
 Works with ESP32-S3 single board computers
 
-![Alt text](https://github.com/techtek/miniMEMEwebsite/blob/main/images/Screenshot2.jpg?raw=true)
+![Alt text](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/060/213/datas/gallery.jpg)
 
 Website: https://techtek.github.io/miniMEMEwebsite/
 
