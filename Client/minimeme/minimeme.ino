@@ -34,7 +34,7 @@ TFT_eSPI tft = TFT_eSPI();         // Invoke custom library
 WebServer server(80); // Use port 80 for HTTP
 int slideSpeed = 3000; // Default slide speed in milliseconds
 
-
+// Webinterface
 String generateHTML() {
   String html = "<html><body style='color:darkgrey;background-color:black;'>";  
   html += "<td><img src='https://techtek.github.io/miniMEMEwebsite/minimemelogo.png' style='width:366px;height:auto;'></td>";
