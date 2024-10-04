@@ -52,7 +52,7 @@ ArduinoJson 7.2.0
 
 Use these specific versions and dont update the libraries or it might result in errors. 
 
-4. Change your wifi credentials add line 30 
+4. Change your wifi credentials at line 30 
 
 5. Upload to your board 
 
