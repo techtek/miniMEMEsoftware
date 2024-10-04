@@ -1,5 +1,12 @@
-# miniMEMEsoftware
-miniMEME
+# miniMEME Client and Server Software
+
+The Memes on Sunpump.meme are small pieces of art and a snapshot of our time and culture! With miniMEME, you can display them on a small inexpensive device to turn your cupboard into a mini meme art gallery, showcasing the latest and greatest Tron memes.
+
+Works with ESP32-S3 
+
+
+Website: https://techtek.github.io/miniMEMEwebsite/
+
 
 -------------------
 
