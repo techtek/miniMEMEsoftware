@@ -6,8 +6,9 @@
 
 The Memes on Sunpump.meme are small pieces of art and a snapshot of our time and culture! With miniMEME, you can display them on a small inexpensive device to turn your cupboard into a mini meme art gallery, showcasing the latest and greatest Tron memes.
 
-Works with ESP32-S3 
+Works with ESP32-S3 single board computers
 
+![Alt text](https://github.com/techtek/miniMEMEwebsite/blob/main/images/Screenshot2.jpg?raw=true)
 
 Website: https://techtek.github.io/miniMEMEwebsite/
 
