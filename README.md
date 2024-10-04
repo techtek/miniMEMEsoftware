@@ -1,6 +1,13 @@
 # miniMEMEsoftware
 miniMEME
 
+
+
+
+![alt text]([https://raw.githubusercontent.com/techtek/miniMEMEwebsite/refs/heads/main/images/Screenshot.jpg](https://techtek.github.io/miniMEMEwebsite/minimemelogo.png))
+
+
+
 Client Setup
 
 1. Make sure your board is installed and working correctly by uploading any of the demo sketches from the demo folder. 
@@ -22,16 +29,16 @@ Use these specific versions and dont update the libraries or it might result in 
 
 Server setup (optional)
 
-Chrome extension to download new memes and prepare them into small JPG images 
+Chrome extension to download new memes and prepare them into small JPG images that the board can handle
 - Install Google chrome
 - Load the miniMEME extension into the browser 
 - Go to sunpump.meme and open the miniMEME extension and press start (if you have a old slow computer you will need set a higher refresh time in the interface (40 / 60 seconds)  
 - The extension will refresh the page and download new memes to the Downloads folder 
 
-Batch script to upload the downloaded 
+Batch script to upload the downloaded and preapred jpg meme files to github
 - Install git for windows 
 - Initiate git to use the Downloads folder
 - Run the batch script to push the downloaded and prepared meme files to github
 
-(it is adviced to use the server side software in a Virtual machine or freshly installed Windows server because the Chrome Extension is limited to only download to the Downloads folder without a save as dialog. The Downloads folder is being used and synced and it is important to keep that in mind)  
+(it is adviced to use the server side software in a Virtual machine or freshly installed Windows server because the Chrome Extension is limited to only download to the Downloads folder without a save as dialog. The Downloads folder is being used and synced and it is important to keep that in mind and to use it only for miniMEME)  
  
