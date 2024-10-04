@@ -30,7 +30,7 @@ Discord: https://discord.gg/GyjvNMtJ5V
 
 
 
-Client Setup
+# Client Setup
 
 1. Install the Arduino IDE and make sure your board is installed and working correctly by uploading any of the demo sketches from the demo folder. 
 2. Download the miniMEME repository files and load the client folder "minimeme" into your arduino IDE software.
@@ -69,7 +69,7 @@ If you want to run the server side application, you can continue with the next s
 
 --------------------------------------------------------------------------
 
-Server setup (optional)
+# Server setup (optional)
 
 Chrome extension: to download new memes and prepare them into small JPG images that the board can handle
 - Install Google chrome
