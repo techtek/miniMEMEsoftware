@@ -24,6 +24,11 @@ Discord: https://discord.gg/GyjvNMtJ5V
 
 -----------------
 
+![Alt text](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/059/944/datas/gallery.jpg)
+
+
+
+
 Client Setup
 
 1. Make sure your board is installed and working correctly by uploading any of the demo sketches from the demo folder. 
