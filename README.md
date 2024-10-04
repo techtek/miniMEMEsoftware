@@ -2,9 +2,7 @@
 miniMEME
 
 
-
-
-![alt text]([https://raw.githubusercontent.com/techtek/miniMEMEwebsite/refs/heads/main/images/Screenshot.jpg](https://techtek.github.io/miniMEMEwebsite/minimemelogo.png))
+https://techtek.github.io/miniMEMEwebsite/minimemelogo.png
 
 
 
