@@ -3,7 +3,13 @@ miniMEME
 
 
 
-![screenshot]([screenshot.png](https://techtek.github.io/miniMEMEwebsite/minimemelogo.png))
+Join the miniMEME, Tron IOT community on:
+
+Telegram: https://t.me/+UQ2B4besKqw0NDY0
+
+Discord: https://discord.gg/GyjvNMtJ5V
+
+
 
 
 Client Setup
