@@ -1,4 +1,4 @@
-# Client and Server Software
+# miniMEME Client and Server Software
 
 
 
@@ -21,6 +21,9 @@ Discord: https://discord.gg/GyjvNMtJ5V
 
 
 -----------------
+
+
+![Alt text](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/059/941/datas/gallery.jpg)
 
 ![Alt text](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/059/944/datas/gallery.jpg)
 
