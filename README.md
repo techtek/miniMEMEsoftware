@@ -1,3 +1,7 @@
+
+![Alt text](https://raw.githubusercontent.com/techtek/miniMEMEwebsite/refs/heads/main/images/minimemeintro.jpg)
+
+
 # miniMEME Client and Server Software
 
 
