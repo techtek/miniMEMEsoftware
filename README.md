@@ -12,11 +12,11 @@ Works with ESP32-S3 single board computers
 
 Website: https://techtek.github.io/miniMEMEwebsite/
 
-![Alt text](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/061/054/datas/gallery.jpg)
+![Alt text](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/069/363/datas/gallery.jpg)
 
-![Alt text](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/059/947/datas/gallery.jpg)
+![Alt text](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/069/365/datas/gallery.jpg)
 
-![Alt text](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/060/213/datas/gallery.jpg)
+![Alt text](https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/069/364/datas/gallery.jpg)
 
 
 
