@@ -221,7 +221,7 @@ if (url.includes('sunpump.')) {
   
   const getSunpumpImagesCode = () => {
   // Select images based on the specific class
-  const images = Array.from(document.querySelectorAll('img._cover_dz19c_21')).map(img => img.src);
+  const images = Array.from(document.querySelectorAll('img[class*="_cover_"]')).map(img => img.src);
   return images;
 };
 
@@ -330,7 +330,7 @@ function isValidImage(imageSrc) {
 
 
 function getSunPumpImagesCode() {
-  return Array.from(document.querySelectorAll('img._cover_1tbf9_21')).map(img => img.src);  
+  return Array.from(document.querySelectorAll('img[class*="_cover_"]')).map(img => img.src);  
 }
 
 
